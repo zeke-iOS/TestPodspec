@@ -129,7 +129,7 @@ Pod::Spec.new do |spec|
 
   # spec.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # spec.dependency "JSONKit", "~> 1.4"
-  spec.dependency "SwiftCollectionsDequeModule", "#{spec.version}"
+  spec.dependency "SwiftCollectionsDequeModule", ">= 0.0.1", "<= #{spec.version}"
   spec.dependency "SwiftCollectionsOrderedCollections", "#{spec.version}"
 
 end
